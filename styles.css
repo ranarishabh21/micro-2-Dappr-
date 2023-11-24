@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Delius", cursive;
+  font-family: "DM Sans", sans-serif;
+  
+}
+
+.navbar {
+  display: flex;
+  background-color: #6f6af7;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: #FFFF;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navbar li {
+  justify-content: space-between;
+  margin: 1rem;
+  align-self: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  justify-content: space-evenly;
+}
+
+span {
+  font-family: "Delius", cursive;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-left: 0;
+}
+
+.search {
+  width: 15rem;
+  border-radius: 2rem;
+  height: 25px;
+  padding: 5px 5px;
+}
+.navbar ul li:last-of-type{
+    position: relative;
+}
+
+.navbar li img{
+    position: absolute;
+    top: 7px;
+    right: 5px;
+
+}
+.Ham-icon {
+    height: 20px;
+}
+
+.navbar ul li select{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+
+
+main{
+    padding: 5rem;
+}
+
+.top{
+    display:flex;
+    align-items: center;
+    margin: auto;
+    
+
+}
+
+.top-left{
+    width: 25%;
+}
+.top-left img{
+    height: 60vh;
+}
+/* .top-right{
+    width: 70%;
+    margin-left: 10rem;
+    background-color: #6f6af7;
+} */
+
+.top-right textarea{
+    width: 70%;
+
+    margin-left: 10rem;
+    background-color: #E5D8FF;;
+    padding: 1rem;
+
+    border-radius: 20px;
+}
+textarea{
+    width: 70dvw;
+    height: 50vh;
+}
+
+
+
+.social{
+    position: sticky;
+    top: 80px;
+    margin-top:25vh;
+    float: right;
+
+}
+.social img{
+    height: 40px;
+    display: block;
+    width: fit-content;
+}
+
+.card{
+    display: flex;
+    height: auto;
+}
+.card1{
+    height: auto;
+    background-color: #929DFF;
+    width: 20vw;
+    color: #FFFF;
+}
+.card2{
+    height: auto;
+    background-color: #734CF2;
+    width: 20vw;
+    color: #FFFF;
+}
+.card3{
+    height: auto;
+    background-color: #D288FF;;
+    width: 20vw;
+    color: #FFFF;
+}
+.card4{
+    height: auto;
+    background-color:#000;
+    width: 20vw;
+    color: #FFFF;
+}
+
+
+
+.bottom{
+    display: flex;
+    background-color:#483EFF ;
+}
+.bottom-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.help{
+    position: fixed;
+    bottom: 10px;
+    right: 100px;
+}
+
+.help-icon{
+    height: 80px;
+    display: block;
+    width: fit-content;
+}
+
+
+
+
+
+
+
+
+
